@@ -19619,7 +19619,7 @@ q=b.Q
 if(a.Q!==q)return q?-1:1
 return 0},
 auq(a,b){var s=A.a2(b).h("ao<1,dl>")
-return A.atP(!0,A.a4(new A.ao(b,new A.VI(),s),!0,s.h("aC.E")),a,B.DD,!0,B.AH,null)},
+return A.atP(!0,A.a4(new A.ao(b,new A.VI(),s),!0,s.h("aC.E")),a,B.DE,!0,B.AH,null)},
 auo(a){a.bO()
 a.b6(A.ap9())},
 Wp(a){var s=a.a,r=s instanceof A.mb?s:null
@@ -25350,7 +25350,7 @@ r6(){var s=this.Q
 s===$&&A.a()
 return s},
 r7(a,b,c,d){var s,r,q,p
-if(a<0||b<0)return B.DB
+if(a<0||b<0)return B.DC
 s=this.a
 s===$&&A.a()
 s=s.a
@@ -31667,7 +31667,7 @@ if(r.e!==B.kX){r.e=B.kX
 r.I4()}}return r.c.a.R6(a)},
 I4(){var s,r
 for(s=this.r,r=0;r<s.length;++r)s[r].$1(this.e)},
-R5(a){if(B.b.t(B.Dn,a))return this.e===B.cc
+R5(a){if(B.b.t(B.Do,a))return this.e===B.cc
 return!1}}
 A.Wh.prototype={
 $0(){return new A.e8(Date.now(),!1)},
@@ -45590,7 +45590,7 @@ Wb(a){var s,r=this,q=null,p=r.a,o=p.e
 p=p.cx
 s=r.ga0a()
 r.a.toString
-return new A.y3(q,q,q,new A.aaJ(),q,q,q,q,q,o,B.FB,q,q,q,B.DE,r.ga0j(),p,q,B.ME,B.eJ,q,s,q,q,B.lc,!1,!1,!1,!1,r.ga_P(),!1,q,q,q,new A.mj(r,t.bT))},
+return new A.y3(q,q,q,new A.aaJ(),q,q,q,q,q,o,B.FB,q,q,q,B.DF,r.ga0j(),p,q,B.ME,B.eJ,q,s,q,q,B.lc,!1,!1,!1,!1,r.ga_P(),!1,q,q,q,new A.mj(r,t.bT))},
 N(a){var s,r=null,q=A.E8(!1,!1,this.Wb(a),r,r,r,r,!0,r,r,r,new A.aaL(),r,r)
 this.a.toString
 s=this.d
@@ -52211,7 +52211,7 @@ Qc(a){var s=this.b,r=s.a.c.Dt(a.a3(0,s.gfd()))
 if(r==null||s.gfd().j(0,B.h))return r
 return new A.i4(r.a.cB(s.gfd()),r.b,r.c)},
 u_(){var s,r,q=this.b,p=q.gfd()
-if(!isFinite(p.a)||!isFinite(p.b))return B.Dy
+if(!isFinite(p.a)||!isFinite(p.b))return B.Dz
 s=q.f
 if(s==null){s=q.a.c.u_()
 q.f=s}if(p.j(0,B.h))r=s
@@ -58579,7 +58579,7 @@ break
 case 1:return A.J(q,r)}})
 return A.K($async$yr,r)},
 Yi(a,b){var s,r,q,p
-if(a===b)return B.DA
+if(a===b)return B.DB
 s=A.b([],t.QP)
 if(a==null)s.push(b)
 else{r=B.b.hn(B.d2,a)
@@ -63079,7 +63079,7 @@ A.j3.prototype={
 j(a,b){if(b==null)return!1
 if(J.S(b)!==A.u(this))return!1
 return b instanceof A.j3&&b.a===this.a&&b.d===this.d&&A.dA(null,null)},
-gu(a){return A.Q(this.a,"MaterialIcons",null,this.d,A.bE(B.DC),B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
+gu(a){return A.Q(this.a,"MaterialIcons",null,this.d,A.bE(B.DD),B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
 i(a){return"IconData(U+"+B.d.lD(B.f.hv(this.a,16).toUpperCase(),5,"0")+")"}}
 A.mp.prototype={
 bD(a){return!this.w.j(0,a.w)}}
@@ -64064,7 +64064,7 @@ c=g==null?(c.b.c.a.a&64)!==0:g
 g=s&&d
 b=s?d:b.ch
 if(b==null)b=B.ic
-f=new A.vy(a1,a,q,p,l,o,n,a0,g===!0,m,k,h,c,j,i,b,new A.Di(d),B.Dx)
+f=new A.vy(a1,a,q,p,l,o,n,a0,g===!0,m,k,h,c,j,i,b,new A.Di(d),B.Dy)
 if(!f.j(0,e.e))e.av(new A.ab1(e,f))},
 ug(){this.pi()},
 M5(){if(this.d==null)this.pi()},
@@ -64396,7 +64396,7 @@ r.M(0,s.Pd(null,l))
 l.a.toString
 q=r.a
 p=0
-for(;!1;++p){o=B.DF[p]
+for(;!1;++p){o=B.DG[p]
 n=l.c
 n.toString
 m=new A.fu(o.Au(n),null,!0,B.jk,B.b7,new A.nU(new ($.RL())(B.b7)),B.b7)
@@ -64742,7 +64742,7 @@ N(a){var s,r,q=this,p=null,o=q.gZZ(),n=A.oO(a),m=q.bl$,l=q.d
 l===$&&A.a()
 s=q.a.at
 if(l.gbe()==null){r=q.gFr()
-r=J.mt(r.slice(0),A.a2(r).c)}else r=B.DG
+r=J.mt(r.slice(0),A.a2(r).c)}else r=B.DH
 return new A.ml(p,new A.cn(new A.a09(q,a),A.mD(B.bd,new A.BB(!1,A.akA(A.E8(!0,p,A.a6t(m,new A.ph(r,s,l)),p,p,p,q.y,!1,p,p,p,p,p,!0),n),p),p,o,q.ga0C(),p,p,o),p,t.w3),p)}}
 A.a08.prototype={
 $1(a){var s=this.a.c
@@ -69746,7 +69746,7 @@ p.tD()
 return s.aR()},
 l(){var s,r,q,p,o=this
 for(s=o.b,r=s.length,q=o.gyt(),p=0;p<s.length;s.length===r||(0,A.F)(s),++p)J.asz(s[p],q)
-o.b=B.Dz
+o.b=B.DA
 o.y=!1
 o.e5()},
 dP(a,b){return a.ne(b)},
@@ -72098,7 +72098,7 @@ A.c1(a,p,t.w).toString
 s=A.a2Q(p,p,B.bz,p,p,!0,p,B.KI,B.aO,p,p,B.ar,B.aG)
 r=$.arZ()
 q=A.a2(r).h("ao<1,cx>")
-return A.dk(p,A.op(A.dk(p,A.lV(A.b([B.Od,s,B.qE,A.ah7(A.pH(A.a4(new A.ao(r,new A.RY(),q),!0,q.h("aC.E")),B.cP,B.ai,B.aF),B.at)],t.F),B.cP,B.ai,B.cg),p,B.xC,p,p,B.Ba,B.B5,p),p,p),B.A9,p,p,p,p,p,1/0)}}
+return A.dk(p,A.op(A.dk(p,A.lV(A.b([B.Oe,s,B.qE,A.ah7(A.pH(A.a4(new A.ao(r,new A.RY(),q),!0,q.h("aC.E")),B.cP,B.ai,B.aF),B.at)],t.F),B.cP,B.ai,B.cg),p,B.xC,p,p,B.Ba,B.B5,p),p,p),B.A9,p,p,p,p,p,1/0)}}
 A.RY.prototype={
 $1(a){return new A.cx(B.hr,A.no(new A.pk(a,null),250,250),null)},
 $S:452}
@@ -72111,7 +72111,7 @@ q=r?0.33:0.75
 q=A.ajD(!r,B.hn,!0,s,q)
 r=$.arX()
 p=A.a2(r).h("ao<1,dj>")
-return new A.cx(B.B9,A.lV(A.b([B.JD,B.Of,B.wc,A.ajE(A.a4(new A.ao(r,new A.So(),p),!0,p.h("aC.E")),q)],t.F),B.av,B.ai,B.aF),null)}}
+return new A.cx(B.B9,A.lV(A.b([B.JD,B.Og,B.wc,A.ajE(A.a4(new A.ao(r,new A.So(),p),!0,p.h("aC.E")),q)],t.F),B.av,B.ai,B.aF),null)}}
 A.So.prototype={
 $1(a){return new A.dj(new A.Sn(a),null)},
 $S:155}
@@ -72125,7 +72125,7 @@ else s=o>600?330:340
 r=A.ajD(!0,B.hn,!0,s,o>600?0.25:0.75)
 q=$.as_()
 p=A.a2(q).h("ao<1,dj>")
-return A.lV(A.b([B.Gu,B.Og,B.qE,B.wc,A.ajE(A.a4(new A.ao(q,new A.Xs(),p),!0,p.h("aC.E")),r)],t.F),B.av,B.ai,B.aF)}}
+return A.lV(A.b([B.Gu,B.Od,B.qE,B.wc,A.ajE(A.a4(new A.ao(q,new A.Xs(),p),!0,p.h("aC.E")),r)],t.F),B.av,B.ai,B.aF)}}
 A.Xs.prototype={
 $1(a){return new A.dj(new A.Xr(a),null)},
 $S:155}
@@ -72136,7 +72136,7 @@ A.pk.prototype={
 N(a){var s,r=this,q=null,p=A.C5(4),o=r.c,n=t.F,m=A.b([A.mH(A.i3(q,A.qa(o.a,q,B.c2,B.L_),B.X,!1,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,!1,B.aM),B.b5,q,q,q),A.qa(o.b,8,B.bz,B.Mu),B.JC],n),l=o.c
 if(l.length!==0){s=a.aj(t.yS)
 if(s==null)s=B.kJ
-m.push(A.a2Q(q,q,B.bz,q,q,!0,q,A.xM(A.b([B.KK,A.xM(q,q,l)],t.Ne),s.w,""),B.aO,q,q,B.ar,B.aG))}m.push(B.qF)
+m.push(A.a2Q(q,q,B.bz,q,q,!0,q,A.xM(A.b([B.KJ,A.xM(q,q,l)],t.Ne),s.w,""),B.aO,q,q,B.ar,B.aG))}m.push(B.qF)
 if(A.ax8(a).a9z("MOBILE"))m.push(B.we)
 l=A.b([],n)
 s=o.d
@@ -75240,7 +75240,7 @@ B.R=new A.a6B()
 B.b4=new A.Jd()
 B.kb=new A.a6C()
 B.cu=new A.Jj(0,0,0,0)
-B.Dx=A.b(s([]),A.ad("v<aEh>"))
+B.Dy=A.b(s([]),A.ad("v<aEh>"))
 B.QE=new A.a6F()
 B.cJ=new A.JB()
 B.cK=new A.JC()
@@ -75401,8 +75401,8 @@ B.fh=new A.Je(1,"down")
 B.L6=new A.t(!0,B.i,null,null,null,null,25,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.Oc=new A.hy("(Safe)",null,B.L6,null,null,null,null)
 B.L7=new A.t(!0,B.i,null,null,null,null,20,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.Oe=new A.hy("  Programmer  ",null,B.L7,null,null,null,null)
-B.Dk=A.b(s([B.Oc,B.Oe]),t.F)
+B.Of=new A.hy("  Programmer  ",null,B.L7,null,null,null,null)
+B.Dk=A.b(s([B.Oc,B.Of]),t.F)
 B.Ah=new A.tx(B.aQ,B.ai,B.aF,B.av,null,B.fh,null,B.Dk,null)
 B.cP=new A.oB(0,"start")
 B.Ai=new A.oB(1,"end")
@@ -75710,25 +75710,25 @@ B.hu=new A.fB(6)
 B.By=new A.fB(7)
 B.kT=new A.fB(8)
 B.lf=A.b(s([B.Bu,B.Bv,B.Bw,B.z,B.a5,B.Bx,B.hu,B.By,B.kT]),A.ad("v<fB>"))
-B.Dn=A.b(s(["click","scroll"]),t.s)
-B.DA=A.b(s([]),t.QP)
+B.Do=A.b(s(["click","scroll"]),t.s)
+B.DB=A.b(s([]),t.QP)
 B.lj=A.b(s([]),A.ad("v<aE1>"))
-B.DD=A.b(s([]),t.E)
-B.Dy=A.b(s([]),t.ER)
-B.DE=A.b(s([]),t.tc)
+B.DE=A.b(s([]),t.E)
+B.Dz=A.b(s([]),t.ER)
+B.DF=A.b(s([]),t.tc)
 B.ex=A.b(s([]),t.jl)
-B.DG=A.b(s([]),t.fy)
-B.DF=A.b(s([]),A.ad("v<agV<@>>"))
+B.DH=A.b(s([]),t.fy)
+B.DG=A.b(s([]),A.ad("v<agV<@>>"))
 B.hM=A.b(s([]),t.AO)
-B.Dz=A.b(s([]),t.D1)
+B.DA=A.b(s([]),t.D1)
 B.hN=A.b(s([]),t.QF)
 B.lh=A.b(s([]),t.s)
 B.a7=A.b(s([]),t.oU)
-B.DB=A.b(s([]),t.Lx)
+B.DC=A.b(s([]),t.Lx)
 B.QL=A.b(s([]),t.F)
 B.li=A.b(s([]),t.t)
 B.lg=A.b(s([]),t.ee)
-B.DC=A.b(s([]),t.XS)
+B.DD=A.b(s([]),t.XS)
 B.jd=new A.cG(0,"DoubleQuote")
 B.cw=new A.cG(1,"SingleQuote")
 B.aj=new A.cG(2,"HebrewLetter")
@@ -75748,7 +75748,7 @@ B.fo=new A.cG(15,"ExtendNumLet")
 B.dG=new A.cG(16,"ZWJ")
 B.jg=new A.cG(17,"WSegSpace")
 B.wC=new A.cG(18,"Unknown")
-B.DH=A.b(s([B.jd,B.cw,B.aj,B.fp,B.fq,B.jh,B.dH,B.Pu,B.dI,B.dJ,B.aP,B.je,B.jf,B.dF,B.bm,B.fo,B.dG,B.jg,B.wC]),A.ad("v<cG>"))
+B.DI=A.b(s([B.jd,B.cw,B.aj,B.fp,B.fq,B.jh,B.dH,B.Pu,B.dI,B.dJ,B.aP,B.je,B.jf,B.dF,B.bm,B.fo,B.dG,B.jg,B.wC]),A.ad("v<cG>"))
 B.lk=A.b(s([B.hz,B.en,B.cY,B.eq,B.eu,B.ce,B.l6,B.hK,B.aE,B.ev,B.bO,B.cV,B.cW,B.eo,B.cX,B.hA,B.bt,B.hB,B.hC,B.l4,B.aD,B.ep,B.cZ,B.d_,B.hD,B.hE,B.hF,B.hG,B.l5,B.hH,B.hI,B.er,B.d0,B.d1,B.hJ,B.es,B.et]),A.ad("v<bi>"))
 B.wD=new A.qx(0,"topLeft")
 B.wG=new A.qx(3,"bottomRight")
@@ -75844,28 +75844,28 @@ B.qb=new A.f(8589935151)
 B.D8=A.b(s([B.pY,null,null,B.qb]),t.L)
 B.pZ=new A.f(48)
 B.i_=new A.f(8589935152)
-B.Dp=A.b(s([B.pZ,null,null,B.i_]),t.L)
+B.Dq=A.b(s([B.pZ,null,null,B.i_]),t.L)
 B.q_=new A.f(49)
 B.db=new A.f(8589935153)
-B.Dq=A.b(s([B.q_,null,null,B.db]),t.L)
+B.Dr=A.b(s([B.q_,null,null,B.db]),t.L)
 B.q0=new A.f(50)
 B.bT=new A.f(8589935154)
-B.Dr=A.b(s([B.q0,null,null,B.bT]),t.L)
+B.Ds=A.b(s([B.q0,null,null,B.bT]),t.L)
 B.q1=new A.f(51)
 B.dc=new A.f(8589935155)
-B.Ds=A.b(s([B.q1,null,null,B.dc]),t.L)
+B.Dt=A.b(s([B.q1,null,null,B.dc]),t.L)
 B.q2=new A.f(52)
 B.bU=new A.f(8589935156)
-B.Dt=A.b(s([B.q2,null,null,B.bU]),t.L)
+B.Du=A.b(s([B.q2,null,null,B.bU]),t.L)
 B.q3=new A.f(53)
 B.i0=new A.f(8589935157)
-B.Du=A.b(s([B.q3,null,null,B.i0]),t.L)
+B.Dv=A.b(s([B.q3,null,null,B.i0]),t.L)
 B.q4=new A.f(54)
 B.bV=new A.f(8589935158)
-B.Dv=A.b(s([B.q4,null,null,B.bV]),t.L)
+B.Dw=A.b(s([B.q4,null,null,B.bV]),t.L)
 B.q5=new A.f(55)
 B.dd=new A.f(8589935159)
-B.Dw=A.b(s([B.q5,null,null,B.dd]),t.L)
+B.Dx=A.b(s([B.q5,null,null,B.dd]),t.L)
 B.q6=new A.f(56)
 B.bW=new A.f(8589935160)
 B.Dl=A.b(s([B.q6,null,null,B.bW]),t.L)
@@ -75874,7 +75874,7 @@ B.de=new A.f(8589935161)
 B.Dm=A.b(s([B.q7,null,null,B.de]),t.L)
 B.DO=A.b(s([B.d9,B.d9,B.eG,null]),t.L)
 B.eC=new A.f(4294967555)
-B.Do=A.b(s([B.eC,null,B.eC,null]),t.L)
+B.Dp=A.b(s([B.eC,null,B.eC,null]),t.L)
 B.aU=new A.f(4294968065)
 B.CQ=A.b(s([B.aU,null,null,B.bT]),t.L)
 B.aK=new A.f(4294968066)
@@ -75902,7 +75902,7 @@ B.CV=A.b(s([B.d6,null,null,B.dc]),t.L)
 B.d7=new A.f(4294968072)
 B.Ch=A.b(s([B.d7,null,null,B.de]),t.L)
 B.DR=A.b(s([B.bR,B.bR,B.cf,null]),t.L)
-B.Fq=new A.cB(["*",B.D4,"+",B.D5,"-",B.D6,".",B.D7,"/",B.D8,"0",B.Dp,"1",B.Dq,"2",B.Dr,"3",B.Ds,"4",B.Dt,"5",B.Du,"6",B.Dv,"7",B.Dw,"8",B.Dl,"9",B.Dm,"Alt",B.DO,"AltGraph",B.Do,"ArrowDown",B.CQ,"ArrowLeft",B.CR,"ArrowRight",B.CS,"ArrowUp",B.CE,"Clear",B.D_,"Control",B.DP,"Delete",B.CX,"End",B.CT,"Enter",B.CO,"Home",B.CU,"Insert",B.D0,"Meta",B.DQ,"PageDown",B.CV,"PageUp",B.Ch,"Shift",B.DR],A.ad("cB<n,C<f?>>"))
+B.Fq=new A.cB(["*",B.D4,"+",B.D5,"-",B.D6,".",B.D7,"/",B.D8,"0",B.Dq,"1",B.Dr,"2",B.Ds,"3",B.Dt,"4",B.Du,"5",B.Dv,"6",B.Dw,"7",B.Dx,"8",B.Dl,"9",B.Dm,"Alt",B.DO,"AltGraph",B.Dp,"ArrowDown",B.CQ,"ArrowLeft",B.CR,"ArrowRight",B.CS,"ArrowUp",B.CE,"Clear",B.D_,"Control",B.DP,"Delete",B.CX,"End",B.CT,"Enter",B.CO,"Home",B.CU,"Insert",B.D0,"Meta",B.DQ,"PageDown",B.CV,"PageUp",B.Ch,"Shift",B.DR],A.ad("cB<n,C<f?>>"))
 B.Cv=A.b(s([42,null,null,8589935146]),t.Z)
 B.Cw=A.b(s([43,null,null,8589935147]),t.Z)
 B.Cy=A.b(s([45,null,null,8589935149]),t.Z)
@@ -77113,13 +77113,13 @@ B.wn=new A.cg(-1,-1)
 B.wo=new A.IN(0,"left")
 B.wp=new A.IN(1,"right")
 B.KH=new A.xL(null,null,null)
-B.KJ=new A.iu("I'm a programmer. I specialize in app & game development.",null,B.b5,null)
-B.DI=A.b(s([B.KJ]),t.VO)
+B.KK=new A.iu("I am a programmer specializing in application and game development.",null,B.b5,null)
+B.Dn=A.b(s([B.KK]),t.VO)
 B.kq=new A.E(4280362281)
 B.Mv=new A.t(!0,B.kq,null,null,null,null,18,null,null,null,null,null,1.6,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.KI=new A.iu(null,B.DI,B.b5,B.Mv)
+B.KI=new A.iu(null,B.Dn,B.b5,B.Mv)
 B.wq=new A.t(!0,null,null,null,null,null,null,B.hu,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.KK=new A.iu("Built with/Feature: ",null,B.b5,B.wq)
+B.KJ=new A.iu("Built with/Feature: ",null,B.b5,B.wq)
 B.zz=new A.E(4278285762)
 B.j3=new A.t(!0,B.zz,null,null,null,null,12,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.zD=new A.E(4279855058)
@@ -77344,10 +77344,10 @@ B.Oa=new A.dy(B.NI,B.Lo,B.Mb,B.MR,B.N3,B.KS,B.LQ,B.KW,B.MF,B.Nf,B.Mh,B.Ng,B.Np,B
 B.LK=new A.t(!0,B.i,null,null,null,null,40,B.hu,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.Ob=new A.hy(" Wimutti Wiratsil ",null,B.LK,null,null,null,null)
 B.zI=new A.E(4280633974)
-B.j4=new A.t(!0,B.zI,null,"Google Sans",null,null,36,null,null,null,null,null,1.6,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.Od=new A.hy("About me",null,B.j4,null,null,null,null)
-B.Of=new A.hy("Recent app projects",null,B.j4,null,null,null,null)
-B.Og=new A.hy("Recent game projects",null,B.j4,null,null,null,null)
+B.j4=new A.t(!0,B.zI,null,"Google Sans",null,null,34,null,null,null,null,null,1.6,null,null,null,null,null,null,null,null,null,null,null,null,null)
+B.Od=new A.hy("Latest projects in game development",null,B.j4,null,null,null,null)
+B.Oe=new A.hy("About me",null,B.j4,null,null,null,null)
+B.Og=new A.hy("Latest app development projects",null,B.j4,null,null,null,null)
 B.QS=new A.a6c(0,"system")
 B.Oh=new A.xO(null)
 B.ff=new A.IT(0,"clamp")
@@ -77818,7 +77818,7 @@ A.aA5($.ay().ga8R().gcg().c,"appendChild",q)
 A.aDe(p.gjT())
 return p})
 s($,"aHy","aj6",()=>A.ayr(A.b([B.Ph,B.Pl,B.P4,B.P5,B.P7,B.Pi,B.P2,B.P3,B.P6,B.Pj,B.Pk,B.P1,B.P8,B.P9,B.Pa,B.Pb,B.Pc,B.Pd,B.Pe,B.Pf,B.Pg],A.ad("v<c7<l3>>")),null,A.ad("l3?")))
-r($,"aI2","By",()=>A.ays("000a!E000b000cF000d!D000w!R000y!A0013!B0018!M001a!N001c001lO001m!L001n!M001t002iK002n!P002p003eK003p!F004q!K004t!I0051!K0053!L0056!K005c005yK0060006uK006w00k7K00ke00lbK00lc00ofG00og00okK00om00onK00oq00otK00ou!M00ov!K00p2!K00p3!L00p400p6K00p8!K00pa00ptK00pv00s5K00s700w1K00w300w9G00wa010vK010x011yK01210124K0126!K0127!L0128013cK013d!M013e!K013l014tG014v!G014x014yG01500151G0153!G015c0162C0167016aC016b!K016c!L016o016tI01700171M0174017eG017g!I017k018qK018r019bG019c019lO019n!O019o!M019q019rK019s!G019t01cjK01cl!K01cm01csG01ct!I01cv01d0G01d101d2K01d301d4G01d601d9G01da01dbK01dc01dlO01dm01doK01dr!K01e7!I01e8!K01e9!G01ea01f3K01f401fuG01fx01idK01ie01ioG01ip!K01j401jdO01je01kaK01kb01kjG01kk01klK01ko!M01kq!K01kt!G01kw01lhK01li01llG01lm!K01ln01lvG01lw!K01lx01lzG01m0!K01m101m5G01mo01ncK01nd01nfG01nk01nuK01pc01pwK01py01qfK01qr01r5G01r6!I01r701s3G01s401tlK01tm01toG01tp!K01tq01u7G01u8!K01u901ufG01ug01upK01uq01urG01uu01v3O01v501vkK01vl01vnG01vp01vwK01vz01w0K01w301woK01wq01wwK01wy!K01x201x5K01x8!G01x9!K01xa01xgG01xj01xkG01xn01xpG01xq!K01xz!G01y401y5K01y701y9K01ya01ybG01ye01ynO01yo01ypK01z0!K01z2!G01z501z7G01z901zeK01zj01zkK01zn0208K020a020gK020i020jK020l020mK020o020pK020s!G020u020yG02130214G02170219G021d!G021l021oK021q!K021y0227O02280229G022a022cK022d!G022p022rG022t0231K02330235K0237023sK023u0240K02420243K02450249K024c!G024d!K024e024lG024n024pG024r024tG024w!K025c025dK025e025fG025i025rO0261!K02620267G0269026bG026d026kK026n026oK026r027cK027e027kK027m027nK027p027tK027w!G027x!K027y0284G02870288G028b028dG028l028nG028s028tK028v028xK028y028zG0292029bO029d!K029u!G029v!K029x02a2K02a602a8K02aa02adK02ah02aiK02ak!K02am02anK02ar02asK02aw02ayK02b202bdK02bi02bmG02bq02bsG02bu02bxG02c0!K02c7!G02cm02cvO02dc02dgG02dh02doK02dq02dsK02du02egK02ei02exK02f1!K02f202f8G02fa02fcG02fe02fhG02fp02fqG02fs02fuK02g002g1K02g202g3G02g602gfO02gw!K02gx02gzG02h102h8K02ha02hcK02he02i0K02i202ibK02id02ihK02ik!G02il!K02im02isG02iu02iwG02iy02j1G02j902jaG02ji!K02jk02jlK02jm02jnG02jq02jzO02k102k2K02kg02kjG02kk02ksK02ku02kwK02ky02m2K02m302m4G02m5!K02m602mcG02me02mgG02mi02mlG02mm!K02ms02muK02mv!G02n302n5K02n602n7G02na02njO02nu02nzK02o102o3G02o502omK02oq02pdK02pf02pnK02pp!K02ps02pyK02q2!G02q702qcG02qe!G02qg02qnG02qu02r3O02r602r7G02sx!G02t002t6G02tj02tqG02ts02u1O02wh!G02wk02wsG02x402x9G02xc02xlO02yo!K02zc02zdG02zk02ztO0305!G0307!G0309!G030e030fG030g030nK030p031oK031t032cG032e032fG032g032kK032l032vG032x033wG0346!G036z037iG037k037tO03860389G038e038gG038i038kG038n038tG038x0390G039e039pG039r!G039s03a1O03a203a5G03a803b9K03bb!K03bh!K03bk03cqK03cs03m0K03m203m5K03m803meK03mg!K03mi03mlK03mo03nsK03nu03nxK03o003owK03oy03p1K03p403paK03pc!K03pe03phK03pk03pyK03q003rkK03rm03rpK03rs03tmK03tp03trG03uo03v3K03vk03xxK03y003y5K03y904fgK04fj04fzK04g0!R04g104gqK04gw04iyK04j204jcK04jk04jwK04jy04k1K04k204k4G04kg04kxK04ky04l0G04lc04ltK04lu04lvG04m804mkK04mm04moK04mq04mrG04ok04pfG04pp!G04ps04q1O04qz04r1G04r2!I04r404rdO04rk04u0K04u804ucK04ud04ueG04uf04vcK04vd!G04ve!K04vk04xhK04xs04ymK04yo04yzG04z404zfG04zq04zzO053k053tO054w055iK055j055nG0579057iG057k058cG058f!G058g058pO058w0595O059s05a8G05c005c4G05c505dfK05dg05dwG05dx05e3K05e805ehO05ez05f7G05fk05fmG05fn05ggK05gh05gtG05gu05gvK05gw05h5O05h605idK05ie05irG05j405k3K05k405knG05kw05l5O05l905lbK05lc05llO05lm05mlK05mo05mwK05n405oaK05od05ofK05ow05oyG05p005pkG05pl05poK05pp!G05pq05pvK05pw!G05px05pyK05pz05q1G05q2!K05q805vjK05vk05x5G05x705xbG05xc0651K06540659K065c066dK066g066lK066o066vK066x!K066z!K0671!K0673067xK0680069gK069i069oK069q!K069u069wK069y06a4K06a806abK06ae06ajK06ao06b0K06b606b8K06ba06bgK06bk06bqR06bs06buR06bw!G06bx!Q06by06bzI06c806c9N06ck!N06cn!L06co06cpF06cq06cuI06cv!P06db06dcP06dg!M06dw!P06e7!R06e806ecI06ee06enI06ep!K06f3!K06fk06fwK06hc06i8G06iq!K06iv!K06iy06j7K06j9!K06jd06jhK06jo!K06jq!K06js!K06ju06jxK06jz06k9K06kc06kfK06kl06kpK06ku!K06lc06mgK079207ahK08ow08q6K08q808riK08rk08v8K08vf08viK08vj08vlG08vm08vnK08w008x1K08x3!K08x9!K08xc08yvK08z3!K08zj!G08zk0906K090g090mK090o090uK090w0912K0914091aK091c091iK091k091qK091s091yK09200926K09280933G094f!K09hc!R09hh!K09ii09inG09ip09itJ09iz09j0K09ll09lmG09ln09loJ09ls09oaJ09oc09ofJ09ol09prK09pt09seK09sw09trK09v409vjJ0a1c0a2mJ0a2o0a53J0vls0wi4K0wk00wl9K0wlc0wssK0wsw0wtbK0wtc0wtlO0wtm0wtnK0wu80wviK0wvj0wvmG0wvo0wvxG0wvz0wwtK0wwu0wwvG0www0wz3K0wz40wz5G0wzs0x4vK0x4y0x56K0x6d0x6pK0x6q!G0x6r0x6tK0x6u!G0x6v0x6yK0x6z!G0x700x7mK0x7n0x7rG0x7w!G0x8g0x9vK0xa80xa9G0xaa0xbnK0xbo0xc5G0xcg0xcpO0xcw0xddG0xde0xdjK0xdn!K0xdp0xdqK0xdr!G0xds0xe1O0xe20xetK0xeu0xf1G0xf40xfqK0xfr0xg3G0xgg0xh8K0xhc0xhfG0xhg0xiqK0xir0xj4G0xjj!K0xjk0xjtO0xk5!G0xkg0xkpO0xkw0xm0K0xm10xmeG0xmo0xmqK0xmr!G0xms0xmzK0xn00xn1G0xn40xndO0xob0xodG0xps!G0xpu0xpwG0xpz0xq0G0xq60xq7G0xq9!G0xr40xreK0xrf0xrjG0xrm0xroK0xrp0xrqG0xs10xs6K0xs90xseK0xsh0xsmK0xsw0xt2K0xt40xtaK0xtc0xuxK0xv40xyaK0xyb0xyiG0xyk0xylG0xyo0xyxO0xz416lfK16ls16meK16mj16nvK1dkw1dl2K1dlf1dljK1dlp!C1dlq!G1dlr1dm0C1dm21dmeC1dmg1dmkC1dmm!C1dmo1dmpC1dmr1dmsC1dmu1dn3C1dn41dptK1dqr1e0tK1e1c1e33K1e361e4nK1e5s1e63K1e681e6nG1e6o!M1e6r!L1e6s!M1e741e7jG1e7n1e7oP1e8d1e8fP1e8g!M1e8i!N1e8k!M1e8l!L1e9c1e9gK1e9i1ed8K1edb!I1edj!N1edo!M1edq!N1eds1ee1O1ee2!L1ee3!M1ee91eeyK1ef3!P1ef51efuK1eg61ehpJ1ehq1ehrG1ehs1eimK1eiq1eivK1eiy1ej3K1ej61ejbK1eje1ejgK1ek91ekbI1ekg1ekrK1ekt1eliK1elk1em2K1em41em5K1em71emlK1emo1en1K1eo01ereK1etc1eusK1eyl!G1f281f30K1f341f4gK1f4w!G1f5s1f6nK1f711f7uK1f801f91K1f921f96G1f9c1fa5K1fa81fb7K1fbc1fbjK1fbl1fbpK1fcw1fh9K1fhc1fhlO1fhs1firK1fiw1fjvK1fk01fl3K1flc1fmrK1fr41fzqK1g001g0lK1g0w1g13K1g5c1g5hK1g5k!K1g5m1g6tK1g6v1g6wK1g70!K1g731g7pK1g801g8mK1g8w1g9qK1gbk1gc2K1gc41gc5K1gcg1gd1K1gdc1ge1K1gg01ghjK1ghq1ghrK1gjk!K1gjl1gjnG1gjp1gjqG1gjw1gjzG1gk01gk3K1gk51gk7K1gk91gl1K1gl41gl6G1glb!G1gm81gn0K1gn41gnwK1gow1gp3K1gp51gpwK1gpx1gpyG1gqo1gs5K1gsg1gt1K1gtc1gtuK1gu81gupK1gxs1gzsK1h1c1h2qK1h341h4iK1h4w1h5vK1h5w1h5zG1h681h6hO1hfk1hgpK1hgr1hgsG1hgw1hgxK1hj41hjwK1hk7!K1hkg1hl1K1hl21hlcG1ho01hokK1hpc1hpyK1hq81hqaG1hqb1hrrK1hrs1hs6G1ht21htbO1htr1htuG1htv1hv3K1hv41hveG1hvh!I1hvx!I1hw01hwoK1hww1hx5O1hxc1hxeG1hxf1hyeK1hyf1hysG1hyu1hz3O1hz8!K1hz91hzaG1hzb!K1hzk1i0iK1i0j!G1i0m!K1i0w1i0yG1i0z1i2aK1i2b1i2oG1i2p1i2sK1i2x1i30G1i321i33G1i341i3dO1i3e!K1i3g!K1i4g1i4xK1i4z1i5nK1i5o1i5zG1i66!G1i801i86K1i88!K1i8a1i8dK1i8f1i8tK1i8v1i94K1i9c1iamK1ian1iayG1ib41ibdO1ibk1ibnG1ibp1ibwK1ibz1ic0K1ic31icoK1icq1icwK1icy1iczK1id11id5K1id71id8G1id9!K1ida1idgG1idj1idkG1idn1idpG1ids!K1idz!G1ie51ie9K1iea1iebG1iee1iekG1ieo1iesG1iio1ik4K1ik51ikmG1ikn1ikqK1ikw1il5O1ila!G1ilb1ildK1im81injK1ink1io3G1io41io5K1io7!K1iog1iopO1itc1iumK1iun1iutG1iuw1iv4G1ivs1ivvK1ivw1ivxG1iww1iy7K1iy81iyoG1iys!K1iz41izdO1j0g1j1mK1j1n1j1zG1j20!K1j281j2hO1j4t1j57G1j5c1j5lO1jb41jcbK1jcc1jcqG1jfk1jhbK1jhc1jhlO1ji71jieK1jih!K1jik1jirK1jit1jiuK1jiw1jjjK1jjk1jjpG1jjr1jjsG1jjv1jjyG1jjz!K1jk0!G1jk1!K1jk21jk3G1jkg1jkpO1jmo1jmvK1jmy1jo0K1jo11jo7G1joa1jogG1joh!K1joj!K1jok!G1jpc!K1jpd1jpmG1jpn1jqqK1jqr1jqxG1jqy!K1jqz1jr2G1jrb!G1jrk!K1jrl1jrvG1jrw1jt5K1jt61jtlG1jtp!K1juo1jw8K1k3k1k3sK1k3u1k4uK1k4v1k52G1k541k5bG1k5c!K1k5s1k61O1k6q1k7jK1k7m1k87G1k891k8mG1kao1kauK1kaw1kaxK1kaz1kc0K1kc11kc6G1kca!G1kcc1kcdG1kcf1kclG1kcm!K1kcn!G1kcw1kd5O1kdc1kdhK1kdj1kdkK1kdm1kehK1kei1kemG1keo1kepG1ker1kevG1kew!K1kf41kfdO1ko01koiK1koj1komG1kts!K1kw01lllK1log1lriK1ls01lxfK1o1s1oviK1ovk1ovsI1s001sg6K1z401zjsK1zk01zkuK1zkw1zl5O1zo01zotK1zow1zp0G1zpc1zqnK1zqo1zquG1zr41zr7K1zrk1zrtO1zs31zsnK1zst1ztbK20cg20e7K20hs20juK20jz!G20k0!K20k120ljG20lr20luG20lv20m7K20o020o1K20o3!K20o4!G20og20ohG2dc0!J2dlw2dlzJ2fpc2fsaK2fsg2fssK2fsw2ft4K2ftc2ftlK2ftp2ftqG2fts2ftvI2jxh2jxlG2jxp2jxuG2jxv2jy2I2jy32jyaG2jyd2jyjG2jze2jzhG2k3m2k3oG2kg02kicK2kie2kkcK2kke2kkfK2kki!K2kkl2kkmK2kkp2kksK2kku2kl5K2kl7!K2kl92klfK2klh2kn9K2knb2kneK2knh2knoK2knq2knwK2kny2kopK2kor2kouK2kow2kp0K2kp2!K2kp62kpcK2kpe2kytK2kyw2kzkK2kzm2l0aK2l0c2l16K2l182l1wK2l1y2l2sK2l2u2l3iK2l3k2l4eK2l4g2l54K2l562l60K2l622l6qK2l6s2l6zK2l722l8fO2lmo2lo6G2lob2lpoG2lpx!G2lqc!G2lqz2lr3G2lr52lrjG2mtc2mtiG2mtk2mu0G2mu32mu9G2mub2mucG2mue2muiG2n0g2n1oK2n1s2n1yG2n1z2n25K2n282n2hO2n2m!K2ncw2ne3K2ne42ne7G2ne82nehO2oe82ojoK2ok02ok6G2olc2on7K2on82oneG2onf!K2onk2ontO2pkw2pkzK2pl12plrK2plt2pluK2plw!K2plz!K2pm12pmaK2pmc2pmfK2pmh!K2pmj!K2pmq!K2pmv!K2pmx!K2pmz!K2pn12pn3K2pn52pn6K2pn8!K2pnb!K2pnd!K2pnf!K2pnh!K2pnj!K2pnl2pnmK2pno!K2pnr2pnuK2pnw2po2K2po42po7K2po92pocK2poe!K2pog2popK2por2pp7K2ppd2ppfK2pph2pplK2ppn2pq3K2q7k2q89K2q8g2q95K2q9c2qa1K2qcm2qdbH2qrf2qrjG2sc02sc9Ojny9!Ijnz4jo1rGjo5cjobzG",231,B.DH,B.wC,A.ad("cG")))
+r($,"aI2","By",()=>A.ays("000a!E000b000cF000d!D000w!R000y!A0013!B0018!M001a!N001c001lO001m!L001n!M001t002iK002n!P002p003eK003p!F004q!K004t!I0051!K0053!L0056!K005c005yK0060006uK006w00k7K00ke00lbK00lc00ofG00og00okK00om00onK00oq00otK00ou!M00ov!K00p2!K00p3!L00p400p6K00p8!K00pa00ptK00pv00s5K00s700w1K00w300w9G00wa010vK010x011yK01210124K0126!K0127!L0128013cK013d!M013e!K013l014tG014v!G014x014yG01500151G0153!G015c0162C0167016aC016b!K016c!L016o016tI01700171M0174017eG017g!I017k018qK018r019bG019c019lO019n!O019o!M019q019rK019s!G019t01cjK01cl!K01cm01csG01ct!I01cv01d0G01d101d2K01d301d4G01d601d9G01da01dbK01dc01dlO01dm01doK01dr!K01e7!I01e8!K01e9!G01ea01f3K01f401fuG01fx01idK01ie01ioG01ip!K01j401jdO01je01kaK01kb01kjG01kk01klK01ko!M01kq!K01kt!G01kw01lhK01li01llG01lm!K01ln01lvG01lw!K01lx01lzG01m0!K01m101m5G01mo01ncK01nd01nfG01nk01nuK01pc01pwK01py01qfK01qr01r5G01r6!I01r701s3G01s401tlK01tm01toG01tp!K01tq01u7G01u8!K01u901ufG01ug01upK01uq01urG01uu01v3O01v501vkK01vl01vnG01vp01vwK01vz01w0K01w301woK01wq01wwK01wy!K01x201x5K01x8!G01x9!K01xa01xgG01xj01xkG01xn01xpG01xq!K01xz!G01y401y5K01y701y9K01ya01ybG01ye01ynO01yo01ypK01z0!K01z2!G01z501z7G01z901zeK01zj01zkK01zn0208K020a020gK020i020jK020l020mK020o020pK020s!G020u020yG02130214G02170219G021d!G021l021oK021q!K021y0227O02280229G022a022cK022d!G022p022rG022t0231K02330235K0237023sK023u0240K02420243K02450249K024c!G024d!K024e024lG024n024pG024r024tG024w!K025c025dK025e025fG025i025rO0261!K02620267G0269026bG026d026kK026n026oK026r027cK027e027kK027m027nK027p027tK027w!G027x!K027y0284G02870288G028b028dG028l028nG028s028tK028v028xK028y028zG0292029bO029d!K029u!G029v!K029x02a2K02a602a8K02aa02adK02ah02aiK02ak!K02am02anK02ar02asK02aw02ayK02b202bdK02bi02bmG02bq02bsG02bu02bxG02c0!K02c7!G02cm02cvO02dc02dgG02dh02doK02dq02dsK02du02egK02ei02exK02f1!K02f202f8G02fa02fcG02fe02fhG02fp02fqG02fs02fuK02g002g1K02g202g3G02g602gfO02gw!K02gx02gzG02h102h8K02ha02hcK02he02i0K02i202ibK02id02ihK02ik!G02il!K02im02isG02iu02iwG02iy02j1G02j902jaG02ji!K02jk02jlK02jm02jnG02jq02jzO02k102k2K02kg02kjG02kk02ksK02ku02kwK02ky02m2K02m302m4G02m5!K02m602mcG02me02mgG02mi02mlG02mm!K02ms02muK02mv!G02n302n5K02n602n7G02na02njO02nu02nzK02o102o3G02o502omK02oq02pdK02pf02pnK02pp!K02ps02pyK02q2!G02q702qcG02qe!G02qg02qnG02qu02r3O02r602r7G02sx!G02t002t6G02tj02tqG02ts02u1O02wh!G02wk02wsG02x402x9G02xc02xlO02yo!K02zc02zdG02zk02ztO0305!G0307!G0309!G030e030fG030g030nK030p031oK031t032cG032e032fG032g032kK032l032vG032x033wG0346!G036z037iG037k037tO03860389G038e038gG038i038kG038n038tG038x0390G039e039pG039r!G039s03a1O03a203a5G03a803b9K03bb!K03bh!K03bk03cqK03cs03m0K03m203m5K03m803meK03mg!K03mi03mlK03mo03nsK03nu03nxK03o003owK03oy03p1K03p403paK03pc!K03pe03phK03pk03pyK03q003rkK03rm03rpK03rs03tmK03tp03trG03uo03v3K03vk03xxK03y003y5K03y904fgK04fj04fzK04g0!R04g104gqK04gw04iyK04j204jcK04jk04jwK04jy04k1K04k204k4G04kg04kxK04ky04l0G04lc04ltK04lu04lvG04m804mkK04mm04moK04mq04mrG04ok04pfG04pp!G04ps04q1O04qz04r1G04r2!I04r404rdO04rk04u0K04u804ucK04ud04ueG04uf04vcK04vd!G04ve!K04vk04xhK04xs04ymK04yo04yzG04z404zfG04zq04zzO053k053tO054w055iK055j055nG0579057iG057k058cG058f!G058g058pO058w0595O059s05a8G05c005c4G05c505dfK05dg05dwG05dx05e3K05e805ehO05ez05f7G05fk05fmG05fn05ggK05gh05gtG05gu05gvK05gw05h5O05h605idK05ie05irG05j405k3K05k405knG05kw05l5O05l905lbK05lc05llO05lm05mlK05mo05mwK05n405oaK05od05ofK05ow05oyG05p005pkG05pl05poK05pp!G05pq05pvK05pw!G05px05pyK05pz05q1G05q2!K05q805vjK05vk05x5G05x705xbG05xc0651K06540659K065c066dK066g066lK066o066vK066x!K066z!K0671!K0673067xK0680069gK069i069oK069q!K069u069wK069y06a4K06a806abK06ae06ajK06ao06b0K06b606b8K06ba06bgK06bk06bqR06bs06buR06bw!G06bx!Q06by06bzI06c806c9N06ck!N06cn!L06co06cpF06cq06cuI06cv!P06db06dcP06dg!M06dw!P06e7!R06e806ecI06ee06enI06ep!K06f3!K06fk06fwK06hc06i8G06iq!K06iv!K06iy06j7K06j9!K06jd06jhK06jo!K06jq!K06js!K06ju06jxK06jz06k9K06kc06kfK06kl06kpK06ku!K06lc06mgK079207ahK08ow08q6K08q808riK08rk08v8K08vf08viK08vj08vlG08vm08vnK08w008x1K08x3!K08x9!K08xc08yvK08z3!K08zj!G08zk0906K090g090mK090o090uK090w0912K0914091aK091c091iK091k091qK091s091yK09200926K09280933G094f!K09hc!R09hh!K09ii09inG09ip09itJ09iz09j0K09ll09lmG09ln09loJ09ls09oaJ09oc09ofJ09ol09prK09pt09seK09sw09trK09v409vjJ0a1c0a2mJ0a2o0a53J0vls0wi4K0wk00wl9K0wlc0wssK0wsw0wtbK0wtc0wtlO0wtm0wtnK0wu80wviK0wvj0wvmG0wvo0wvxG0wvz0wwtK0wwu0wwvG0www0wz3K0wz40wz5G0wzs0x4vK0x4y0x56K0x6d0x6pK0x6q!G0x6r0x6tK0x6u!G0x6v0x6yK0x6z!G0x700x7mK0x7n0x7rG0x7w!G0x8g0x9vK0xa80xa9G0xaa0xbnK0xbo0xc5G0xcg0xcpO0xcw0xddG0xde0xdjK0xdn!K0xdp0xdqK0xdr!G0xds0xe1O0xe20xetK0xeu0xf1G0xf40xfqK0xfr0xg3G0xgg0xh8K0xhc0xhfG0xhg0xiqK0xir0xj4G0xjj!K0xjk0xjtO0xk5!G0xkg0xkpO0xkw0xm0K0xm10xmeG0xmo0xmqK0xmr!G0xms0xmzK0xn00xn1G0xn40xndO0xob0xodG0xps!G0xpu0xpwG0xpz0xq0G0xq60xq7G0xq9!G0xr40xreK0xrf0xrjG0xrm0xroK0xrp0xrqG0xs10xs6K0xs90xseK0xsh0xsmK0xsw0xt2K0xt40xtaK0xtc0xuxK0xv40xyaK0xyb0xyiG0xyk0xylG0xyo0xyxO0xz416lfK16ls16meK16mj16nvK1dkw1dl2K1dlf1dljK1dlp!C1dlq!G1dlr1dm0C1dm21dmeC1dmg1dmkC1dmm!C1dmo1dmpC1dmr1dmsC1dmu1dn3C1dn41dptK1dqr1e0tK1e1c1e33K1e361e4nK1e5s1e63K1e681e6nG1e6o!M1e6r!L1e6s!M1e741e7jG1e7n1e7oP1e8d1e8fP1e8g!M1e8i!N1e8k!M1e8l!L1e9c1e9gK1e9i1ed8K1edb!I1edj!N1edo!M1edq!N1eds1ee1O1ee2!L1ee3!M1ee91eeyK1ef3!P1ef51efuK1eg61ehpJ1ehq1ehrG1ehs1eimK1eiq1eivK1eiy1ej3K1ej61ejbK1eje1ejgK1ek91ekbI1ekg1ekrK1ekt1eliK1elk1em2K1em41em5K1em71emlK1emo1en1K1eo01ereK1etc1eusK1eyl!G1f281f30K1f341f4gK1f4w!G1f5s1f6nK1f711f7uK1f801f91K1f921f96G1f9c1fa5K1fa81fb7K1fbc1fbjK1fbl1fbpK1fcw1fh9K1fhc1fhlO1fhs1firK1fiw1fjvK1fk01fl3K1flc1fmrK1fr41fzqK1g001g0lK1g0w1g13K1g5c1g5hK1g5k!K1g5m1g6tK1g6v1g6wK1g70!K1g731g7pK1g801g8mK1g8w1g9qK1gbk1gc2K1gc41gc5K1gcg1gd1K1gdc1ge1K1gg01ghjK1ghq1ghrK1gjk!K1gjl1gjnG1gjp1gjqG1gjw1gjzG1gk01gk3K1gk51gk7K1gk91gl1K1gl41gl6G1glb!G1gm81gn0K1gn41gnwK1gow1gp3K1gp51gpwK1gpx1gpyG1gqo1gs5K1gsg1gt1K1gtc1gtuK1gu81gupK1gxs1gzsK1h1c1h2qK1h341h4iK1h4w1h5vK1h5w1h5zG1h681h6hO1hfk1hgpK1hgr1hgsG1hgw1hgxK1hj41hjwK1hk7!K1hkg1hl1K1hl21hlcG1ho01hokK1hpc1hpyK1hq81hqaG1hqb1hrrK1hrs1hs6G1ht21htbO1htr1htuG1htv1hv3K1hv41hveG1hvh!I1hvx!I1hw01hwoK1hww1hx5O1hxc1hxeG1hxf1hyeK1hyf1hysG1hyu1hz3O1hz8!K1hz91hzaG1hzb!K1hzk1i0iK1i0j!G1i0m!K1i0w1i0yG1i0z1i2aK1i2b1i2oG1i2p1i2sK1i2x1i30G1i321i33G1i341i3dO1i3e!K1i3g!K1i4g1i4xK1i4z1i5nK1i5o1i5zG1i66!G1i801i86K1i88!K1i8a1i8dK1i8f1i8tK1i8v1i94K1i9c1iamK1ian1iayG1ib41ibdO1ibk1ibnG1ibp1ibwK1ibz1ic0K1ic31icoK1icq1icwK1icy1iczK1id11id5K1id71id8G1id9!K1ida1idgG1idj1idkG1idn1idpG1ids!K1idz!G1ie51ie9K1iea1iebG1iee1iekG1ieo1iesG1iio1ik4K1ik51ikmG1ikn1ikqK1ikw1il5O1ila!G1ilb1ildK1im81injK1ink1io3G1io41io5K1io7!K1iog1iopO1itc1iumK1iun1iutG1iuw1iv4G1ivs1ivvK1ivw1ivxG1iww1iy7K1iy81iyoG1iys!K1iz41izdO1j0g1j1mK1j1n1j1zG1j20!K1j281j2hO1j4t1j57G1j5c1j5lO1jb41jcbK1jcc1jcqG1jfk1jhbK1jhc1jhlO1ji71jieK1jih!K1jik1jirK1jit1jiuK1jiw1jjjK1jjk1jjpG1jjr1jjsG1jjv1jjyG1jjz!K1jk0!G1jk1!K1jk21jk3G1jkg1jkpO1jmo1jmvK1jmy1jo0K1jo11jo7G1joa1jogG1joh!K1joj!K1jok!G1jpc!K1jpd1jpmG1jpn1jqqK1jqr1jqxG1jqy!K1jqz1jr2G1jrb!G1jrk!K1jrl1jrvG1jrw1jt5K1jt61jtlG1jtp!K1juo1jw8K1k3k1k3sK1k3u1k4uK1k4v1k52G1k541k5bG1k5c!K1k5s1k61O1k6q1k7jK1k7m1k87G1k891k8mG1kao1kauK1kaw1kaxK1kaz1kc0K1kc11kc6G1kca!G1kcc1kcdG1kcf1kclG1kcm!K1kcn!G1kcw1kd5O1kdc1kdhK1kdj1kdkK1kdm1kehK1kei1kemG1keo1kepG1ker1kevG1kew!K1kf41kfdO1ko01koiK1koj1komG1kts!K1kw01lllK1log1lriK1ls01lxfK1o1s1oviK1ovk1ovsI1s001sg6K1z401zjsK1zk01zkuK1zkw1zl5O1zo01zotK1zow1zp0G1zpc1zqnK1zqo1zquG1zr41zr7K1zrk1zrtO1zs31zsnK1zst1ztbK20cg20e7K20hs20juK20jz!G20k0!K20k120ljG20lr20luG20lv20m7K20o020o1K20o3!K20o4!G20og20ohG2dc0!J2dlw2dlzJ2fpc2fsaK2fsg2fssK2fsw2ft4K2ftc2ftlK2ftp2ftqG2fts2ftvI2jxh2jxlG2jxp2jxuG2jxv2jy2I2jy32jyaG2jyd2jyjG2jze2jzhG2k3m2k3oG2kg02kicK2kie2kkcK2kke2kkfK2kki!K2kkl2kkmK2kkp2kksK2kku2kl5K2kl7!K2kl92klfK2klh2kn9K2knb2kneK2knh2knoK2knq2knwK2kny2kopK2kor2kouK2kow2kp0K2kp2!K2kp62kpcK2kpe2kytK2kyw2kzkK2kzm2l0aK2l0c2l16K2l182l1wK2l1y2l2sK2l2u2l3iK2l3k2l4eK2l4g2l54K2l562l60K2l622l6qK2l6s2l6zK2l722l8fO2lmo2lo6G2lob2lpoG2lpx!G2lqc!G2lqz2lr3G2lr52lrjG2mtc2mtiG2mtk2mu0G2mu32mu9G2mub2mucG2mue2muiG2n0g2n1oK2n1s2n1yG2n1z2n25K2n282n2hO2n2m!K2ncw2ne3K2ne42ne7G2ne82nehO2oe82ojoK2ok02ok6G2olc2on7K2on82oneG2onf!K2onk2ontO2pkw2pkzK2pl12plrK2plt2pluK2plw!K2plz!K2pm12pmaK2pmc2pmfK2pmh!K2pmj!K2pmq!K2pmv!K2pmx!K2pmz!K2pn12pn3K2pn52pn6K2pn8!K2pnb!K2pnd!K2pnf!K2pnh!K2pnj!K2pnl2pnmK2pno!K2pnr2pnuK2pnw2po2K2po42po7K2po92pocK2poe!K2pog2popK2por2pp7K2ppd2ppfK2pph2pplK2ppn2pq3K2q7k2q89K2q8g2q95K2q9c2qa1K2qcm2qdbH2qrf2qrjG2sc02sc9Ojny9!Ijnz4jo1rGjo5cjobzG",231,B.DI,B.wC,A.ad("cG")))
 s($,"aDM","apN",()=>{var q=t.N
 return new A.ST(A.aM(["birthday","bday","birthdayDay","bday-day","birthdayMonth","bday-month","birthdayYear","bday-year","countryCode","country","countryName","country-name","creditCardExpirationDate","cc-exp","creditCardExpirationMonth","cc-exp-month","creditCardExpirationYear","cc-exp-year","creditCardFamilyName","cc-family-name","creditCardGivenName","cc-given-name","creditCardMiddleName","cc-additional-name","creditCardName","cc-name","creditCardNumber","cc-number","creditCardSecurityCode","cc-csc","creditCardType","cc-type","email","email","familyName","family-name","fullStreetAddress","street-address","gender","sex","givenName","given-name","impp","impp","jobTitle","organization-title","language","language","middleName","additional-name","name","name","namePrefix","honorific-prefix","nameSuffix","honorific-suffix","newPassword","new-password","nickname","nickname","oneTimeCode","one-time-code","organizationName","organization","password","current-password","photo","photo","postalCode","postal-code","streetAddressLevel1","address-level1","streetAddressLevel2","address-level2","streetAddressLevel3","address-level3","streetAddressLevel4","address-level4","streetAddressLine1","address-line1","streetAddressLine2","address-line2","streetAddressLine3","address-line3","telephoneNumber","tel","telephoneNumberAreaCode","tel-area-code","telephoneNumberCountryCode","tel-country-code","telephoneNumberExtension","tel-extension","telephoneNumberLocal","tel-local","telephoneNumberLocalPrefix","tel-local-prefix","telephoneNumberLocalSuffix","tel-local-suffix","telephoneNumberNational","tel-national","transactionAmount","transaction-amount","transactionCurrency","transaction-currency","url","url","username","username"],q,q))})
 s($,"aI_","Bx",()=>new A.Yg())
@@ -78126,11 +78126,11 @@ s($,"aGw","ar9",()=>A.fM("^\\d+$",!0,!1))
 s($,"aFk","afn",()=>new A.a1l(A.fM("/",!0,!1),A.fM("[^/]$",!0,!1),A.fM("^/",!0,!1)))
 s($,"aEM","afk",()=>A.agd())
 r($,"aHK","arZ",()=>{var q=t.s
-return A.b([A.ho("","Dhurakij Pundit University : B.Eng in Digital media and game system.","",A.b([],q),"Education","","dpu.ac.th",""),A.ho("","7 years of professional experience as a programmer.","",A.b([],q),"Work Experience","","",""),A.ho("","Develop games and apps on Unity Engine with C# or Flutter with Dart, Develop backend services and RESTful APIs using Node.js and Mongodb","",A.b([],q),"Skills","","",""),A.ho("","Examples code of my work on Git.","",A.b([],q),"Git","","github.com/wiratsil","")],A.ad("v<ij>"))})
+return A.b([A.ho("","Dhurakij Pundit University : B.Eng in Digital media and game system.","",A.b([],q),"Education","","dpu.ac.th",""),A.ho("","I possess seven years of professional experience as a programmer.","",A.b([],q),"Work Experience","","",""),A.ho("","I specialize in developing games with Unity Engine using C#, as well as building applications with Flutter using Dart. Furthermore, I develop backend services and RESTful APIs with Node.js and MongoDB.","",A.b([],q),"Skills","","",""),A.ho("","Examples of my work can be found on my GitHub repository.","",A.b([],q),"Git","","github.com/wiratsil","")],A.ad("v<ij>"))})
 r($,"aHB","arX",()=>{var q=t.s
-return A.b([A.ho("","Vehicle control systems such as seats, air conditioning, lights, and glass.","Flutter, RESTful API",A.b(["https://i.imgur.com/clM6UxO.png","https://i.imgur.com/2cpmpU4.png","https://i.imgur.com/om1Uc0f.png"],q),"THAIYARNYON","","",""),A.ho("apps.apple.com/th/app/insight-wat-pho/id1630964323?l=th","App explore inside the temple. AR system for visiting inside the temple.","Flutter, Unity AR, Panorama 360, DB by Google sheet",A.b(["https://play-lh.googleusercontent.com/9GkbnrhMhXg3LgbJfv5HT2jA1yHe-A2yvnP1M21Y_ge84xuOCmG946vdHw9CUqT2jA=w5120-h2880-rw","https://play-lh.googleusercontent.com/Qp8jurikJCmPsniGTejNnfvoP-owhQThtPY_cgoyD-q9CqHEiIOaxItkxaL4OJKpY7j8=w5120-h2880-rw","https://play-lh.googleusercontent.com/PDLx-FmOJaXGplepqMafDpej6NY5wOWWMDhDC0wnvGRHYv4uoi7IL29pC3NWjEYQ_A=w5120-h2880-rw","https://play-lh.googleusercontent.com/qVmm7fle5eHBBizUWbgrPw23Bp6Lct3Sx9qQ3a3km7Na203KkJL3XVbOIH0GplzMNcM=w5120-h2880-rw"],q),"Insight Wat Pho","play.google.com/store/apps/details?id=com.digitopolisstudio.watpho&hl=th","",""),A.ho("","Demo project for backend and database training","Flutter, Node.js, Mongodb, RESTful API",A.b(["https://i.imgur.com/zeKeIxP.png","https://i.imgur.com/aT8nVpe.png","https://i.imgur.com/jzlOZb7.png"],q),"User Management","","","")],A.ad("v<ij>"))})
+return A.b([A.ho("","Vehicle control systems, including seating, air conditioning, lighting, and windows.","Flutter, RESTful API",A.b(["https://i.imgur.com/clM6UxO.png","https://i.imgur.com/2cpmpU4.png","https://i.imgur.com/om1Uc0f.png"],q),"THAIYARNYON","","",""),A.ho("apps.apple.com/th/app/insight-wat-pho/id1630964323?l=th","A temple exploration app with an augmented reality (AR) system designed to enrich the visitor's experience inside the temple.","Flutter, Unity AR, Panorama 360, DB by Google sheet",A.b(["https://play-lh.googleusercontent.com/9GkbnrhMhXg3LgbJfv5HT2jA1yHe-A2yvnP1M21Y_ge84xuOCmG946vdHw9CUqT2jA=w5120-h2880-rw","https://play-lh.googleusercontent.com/Qp8jurikJCmPsniGTejNnfvoP-owhQThtPY_cgoyD-q9CqHEiIOaxItkxaL4OJKpY7j8=w5120-h2880-rw","https://play-lh.googleusercontent.com/PDLx-FmOJaXGplepqMafDpej6NY5wOWWMDhDC0wnvGRHYv4uoi7IL29pC3NWjEYQ_A=w5120-h2880-rw","https://play-lh.googleusercontent.com/qVmm7fle5eHBBizUWbgrPw23Bp6Lct3Sx9qQ3a3km7Na203KkJL3XVbOIH0GplzMNcM=w5120-h2880-rw"],q),"Insight Wat Pho","play.google.com/store/apps/details?id=com.digitopolisstudio.watpho&hl=th","",""),A.ho("","A demo project designed for backend and database training.","Flutter, Node.js, Mongodb, RESTful API",A.b(["https://i.imgur.com/zeKeIxP.png","https://i.imgur.com/aT8nVpe.png","https://i.imgur.com/jzlOZb7.png"],q),"User Management","","","")],A.ad("v<ij>"))})
 r($,"aHL","as_",()=>{var q="Unity",p=t.s
-return A.b([A.ho("apps.apple.com/th/app/little-monster-home/id1636635215?l=th","Learn everyday English vocabulary with voiceovers Have fun with mini-games.","Unity, IAP, Firebase analytics",A.b(["https://play-lh.googleusercontent.com/e55V_Nr_7DnxDcF7s-GgawKJ59q7hsVKojP7U_19wN8onuJLCF7x006j3Ldq10emGk0=w5120-h2880-rw","https://play-lh.googleusercontent.com/-H2CmsbXztOTN-X4fR3OTUHMNUTdnSHjUoIixN6ZSUbmUmvcNZct4yYpkSgRgr9PSq8W=w5120-h2880-rw","https://play-lh.googleusercontent.com/lprMf9oPt97sYnwtvOJlk78ZkX1nt7EC1MfDzrlt6xMe9YtpCU_o1VtFIMeXB8L6SOY=w5120-h2880-rw","https://play-lh.googleusercontent.com/poTKbpj7IdeemqYbuKjRxty0waphRwNYUuJlaqXIWwM4VwE5uh61Cav7sF2g7v0Avg=w5120-h2880-rw","https://play-lh.googleusercontent.com/w78PIZvRYgiq5c6ZkqnoFXztCj9ZeOfbSeFNbNRMXP-REcHBluL8fYPl4ZQvfPLMeUM=w5120-h2880-rw"],p),"Little Monster","play.google.com/store/apps/details?id=com.digitopolisstudio.littlemonsterhome&hl=th","",""),A.ho("","Simulate various parcel delivery systems in a game format.",q,A.b(["https://static.wixstatic.com/media/6c1ffb_dc485d2a2770451abeea6a879010aea9~mv2.png/v1/fill/w_1920,h_1080,al_c,q_95,enc_auto/6c1ffb_dc485d2a2770451abeea6a879010aea9~mv2.png","https://static.wixstatic.com/media/6c1ffb_3f8367665e274a22a3d3695079fc4ccc~mv2.png/v1/fill/w_1920,h_1080,al_c,q_95,enc_auto/6c1ffb_3f8367665e274a22a3d3695079fc4ccc~mv2.png","https://static.wixstatic.com/media/6c1ffb_d96245fba0ef4c64a9b5c1d5c76082d2~mv2.png/v1/fill/w_1920,h_1080,al_c,q_95,enc_auto/6c1ffb_d96245fba0ef4c64a9b5c1d5c76082d2~mv2.png","https://static.wixstatic.com/media/6c1ffb_667412dbf5534d83a4ace53cda08cce8~mv2.png/v1/fill/w_1920,h_1080,al_c,q_95,enc_auto/6c1ffb_667412dbf5534d83a4ace53cda08cce8~mv2.png"],p),"Logistic","","",""),A.ho("","Simulate the correct use of agricultural equipment for harvesting.",q,A.b(["https://static.wixstatic.com/media/6c1ffb_6be51fcb60a942a38304f78a9a3e1cb9~mv2.png/v1/fill/w_1920,h_1080,al_c,q_95,enc_auto/6c1ffb_6be51fcb60a942a38304f78a9a3e1cb9~mv2.png","https://static.wixstatic.com/media/6c1ffb_ec0b6154d7824633968a0d2ea431a6f3~mv2.png/v1/fill/w_1920,h_1080,al_c,q_95,enc_auto/6c1ffb_ec0b6154d7824633968a0d2ea431a6f3~mv2.png","https://static.wixstatic.com/media/6c1ffb_00aa7306e32d40d298a5c55abe6f7e56~mv2.png/v1/fill/w_1920,h_1080,al_c,q_95,enc_auto/6c1ffb_00aa7306e32d40d298a5c55abe6f7e56~mv2.png","https://static.wixstatic.com/media/6c1ffb_6fdcfd4ec5144d16a9d7f6ab5f058ed0~mv2.png/v1/fill/w_1920,h_1080,al_c,q_95,enc_auto/6c1ffb_6fdcfd4ec5144d16a9d7f6ab5f058ed0~mv2.png"],p),"Tractor","","",""),A.ho("","Racing game, Players must overcome obstacles to reach the finish line.",q,A.b(["https://static.wixstatic.com/media/6c1ffb_15f86437d3cb4342b2d5758b1d69abd8~mv2.jpeg/v1/fill/w_1600,h_900,al_c,q_85,enc_auto/6c1ffb_15f86437d3cb4342b2d5758b1d69abd8~mv2.jpeg","https://static.wixstatic.com/media/6c1ffb_b002146dd8564349bb1ad99992c2bb0f~mv2.jpeg/v1/fill/w_1600,h_900,al_c,q_85,enc_auto/6c1ffb_b002146dd8564349bb1ad99992c2bb0f~mv2.jpeg","https://static.wixstatic.com/media/6c1ffb_344dad8bf1cf4b808b23a7f2d498e5fc~mv2.jpeg/v1/fill/w_1600,h_900,al_c,q_85,enc_auto/6c1ffb_344dad8bf1cf4b808b23a7f2d498e5fc~mv2.jpeg","https://static.wixstatic.com/media/6c1ffb_7bfa499280c947caa9d74940de2a4c7e~mv2.jpeg/v1/fill/w_1600,h_900,al_c,q_85,enc_auto/6c1ffb_7bfa499280c947caa9d74940de2a4c7e~mv2.jpeg"],p),"Little Slippies","","",""),A.ho("","4 sub-games, where the scores of each game are added together for ranking.","Unity, RESTful API",A.b(["https://static.wixstatic.com/media/6c1ffb_b27cb71a562c4fa2baf01f720a47faf1~mv2.png/v1/fill/w_2400,h_1215,al_c,q_95,usm_0.66_1.00_0.01,enc_auto/6c1ffb_b27cb71a562c4fa2baf01f720a47faf1~mv2.png","https://static.wixstatic.com/media/6c1ffb_67065df030a84ae186ac715f33743789~mv2.png/v1/fill/w_2400,h_1160,al_c,q_95,usm_0.66_1.00_0.01,enc_auto/6c1ffb_67065df030a84ae186ac715f33743789~mv2.png","https://static.wixstatic.com/media/6c1ffb_8a4b14e02a924dd89b756a676696ca1a~mv2.png/v1/fill/w_2400,h_1160,al_c,q_95,usm_0.66_1.00_0.01,enc_auto/6c1ffb_8a4b14e02a924dd89b756a676696ca1a~mv2.png","https://static.wixstatic.com/media/6c1ffb_6f586b8364764506b6acc79400720fa3~mv2.png/v1/fill/w_2400,h_1160,al_c,q_95,usm_0.66_1.00_0.01,enc_auto/6c1ffb_6f586b8364764506b6acc79400720fa3~mv2.png","https://static.wixstatic.com/media/6c1ffb_8465803547bd494f9b635bdae61a4e7a~mv2.png/v1/fill/w_2400,h_1160,al_c,q_95,usm_0.66_1.00_0.01,enc_auto/6c1ffb_8465803547bd494f9b635bdae61a4e7a~mv2.png"],p),"PTT Games","","","")],A.ad("v<ij>"))})
+return A.b([A.ho("apps.apple.com/th/app/little-monster-home/id1636635215?l=th","Learn everyday English vocabulary with engaging voiceovers while enjoying fun mini-games.","Unity, IAP, Firebase analytics",A.b(["https://play-lh.googleusercontent.com/e55V_Nr_7DnxDcF7s-GgawKJ59q7hsVKojP7U_19wN8onuJLCF7x006j3Ldq10emGk0=w5120-h2880-rw","https://play-lh.googleusercontent.com/-H2CmsbXztOTN-X4fR3OTUHMNUTdnSHjUoIixN6ZSUbmUmvcNZct4yYpkSgRgr9PSq8W=w5120-h2880-rw","https://play-lh.googleusercontent.com/lprMf9oPt97sYnwtvOJlk78ZkX1nt7EC1MfDzrlt6xMe9YtpCU_o1VtFIMeXB8L6SOY=w5120-h2880-rw","https://play-lh.googleusercontent.com/poTKbpj7IdeemqYbuKjRxty0waphRwNYUuJlaqXIWwM4VwE5uh61Cav7sF2g7v0Avg=w5120-h2880-rw","https://play-lh.googleusercontent.com/w78PIZvRYgiq5c6ZkqnoFXztCj9ZeOfbSeFNbNRMXP-REcHBluL8fYPl4ZQvfPLMeUM=w5120-h2880-rw"],p),"Little Monster","play.google.com/store/apps/details?id=com.digitopolisstudio.littlemonsterhome&hl=th","",""),A.ho("","Simulate a variety of parcel delivery systems within a game format.",q,A.b(["https://static.wixstatic.com/media/6c1ffb_dc485d2a2770451abeea6a879010aea9~mv2.png/v1/fill/w_1920,h_1080,al_c,q_95,enc_auto/6c1ffb_dc485d2a2770451abeea6a879010aea9~mv2.png","https://static.wixstatic.com/media/6c1ffb_3f8367665e274a22a3d3695079fc4ccc~mv2.png/v1/fill/w_1920,h_1080,al_c,q_95,enc_auto/6c1ffb_3f8367665e274a22a3d3695079fc4ccc~mv2.png","https://static.wixstatic.com/media/6c1ffb_d96245fba0ef4c64a9b5c1d5c76082d2~mv2.png/v1/fill/w_1920,h_1080,al_c,q_95,enc_auto/6c1ffb_d96245fba0ef4c64a9b5c1d5c76082d2~mv2.png","https://static.wixstatic.com/media/6c1ffb_667412dbf5534d83a4ace53cda08cce8~mv2.png/v1/fill/w_1920,h_1080,al_c,q_95,enc_auto/6c1ffb_667412dbf5534d83a4ace53cda08cce8~mv2.png"],p),"Logistic","","",""),A.ho("","Simulate the proper use of agricultural equipment for harvesting.",q,A.b(["https://static.wixstatic.com/media/6c1ffb_6be51fcb60a942a38304f78a9a3e1cb9~mv2.png/v1/fill/w_1920,h_1080,al_c,q_95,enc_auto/6c1ffb_6be51fcb60a942a38304f78a9a3e1cb9~mv2.png","https://static.wixstatic.com/media/6c1ffb_ec0b6154d7824633968a0d2ea431a6f3~mv2.png/v1/fill/w_1920,h_1080,al_c,q_95,enc_auto/6c1ffb_ec0b6154d7824633968a0d2ea431a6f3~mv2.png","https://static.wixstatic.com/media/6c1ffb_00aa7306e32d40d298a5c55abe6f7e56~mv2.png/v1/fill/w_1920,h_1080,al_c,q_95,enc_auto/6c1ffb_00aa7306e32d40d298a5c55abe6f7e56~mv2.png","https://static.wixstatic.com/media/6c1ffb_6fdcfd4ec5144d16a9d7f6ab5f058ed0~mv2.png/v1/fill/w_1920,h_1080,al_c,q_95,enc_auto/6c1ffb_6fdcfd4ec5144d16a9d7f6ab5f058ed0~mv2.png"],p),"Tractor","","",""),A.ho("","A racing game where players must navigate obstacles to reach the finish line.",q,A.b(["https://static.wixstatic.com/media/6c1ffb_15f86437d3cb4342b2d5758b1d69abd8~mv2.jpeg/v1/fill/w_1600,h_900,al_c,q_85,enc_auto/6c1ffb_15f86437d3cb4342b2d5758b1d69abd8~mv2.jpeg","https://static.wixstatic.com/media/6c1ffb_b002146dd8564349bb1ad99992c2bb0f~mv2.jpeg/v1/fill/w_1600,h_900,al_c,q_85,enc_auto/6c1ffb_b002146dd8564349bb1ad99992c2bb0f~mv2.jpeg","https://static.wixstatic.com/media/6c1ffb_344dad8bf1cf4b808b23a7f2d498e5fc~mv2.jpeg/v1/fill/w_1600,h_900,al_c,q_85,enc_auto/6c1ffb_344dad8bf1cf4b808b23a7f2d498e5fc~mv2.jpeg","https://static.wixstatic.com/media/6c1ffb_7bfa499280c947caa9d74940de2a4c7e~mv2.jpeg/v1/fill/w_1600,h_900,al_c,q_85,enc_auto/6c1ffb_7bfa499280c947caa9d74940de2a4c7e~mv2.jpeg"],p),"Little Slippies","","",""),A.ho("","Four sub-games, with the scores from each game combined for overall ranking.","Unity, RESTful API",A.b(["https://static.wixstatic.com/media/6c1ffb_b27cb71a562c4fa2baf01f720a47faf1~mv2.png/v1/fill/w_2400,h_1215,al_c,q_95,usm_0.66_1.00_0.01,enc_auto/6c1ffb_b27cb71a562c4fa2baf01f720a47faf1~mv2.png","https://static.wixstatic.com/media/6c1ffb_67065df030a84ae186ac715f33743789~mv2.png/v1/fill/w_2400,h_1160,al_c,q_95,usm_0.66_1.00_0.01,enc_auto/6c1ffb_67065df030a84ae186ac715f33743789~mv2.png","https://static.wixstatic.com/media/6c1ffb_8a4b14e02a924dd89b756a676696ca1a~mv2.png/v1/fill/w_2400,h_1160,al_c,q_95,usm_0.66_1.00_0.01,enc_auto/6c1ffb_8a4b14e02a924dd89b756a676696ca1a~mv2.png","https://static.wixstatic.com/media/6c1ffb_6f586b8364764506b6acc79400720fa3~mv2.png/v1/fill/w_2400,h_1160,al_c,q_95,usm_0.66_1.00_0.01,enc_auto/6c1ffb_6f586b8364764506b6acc79400720fa3~mv2.png","https://static.wixstatic.com/media/6c1ffb_8465803547bd494f9b635bdae61a4e7a~mv2.png/v1/fill/w_2400,h_1160,al_c,q_95,usm_0.66_1.00_0.01,enc_auto/6c1ffb_8465803547bd494f9b635bdae61a4e7a~mv2.png"],p),"PTT Games","","","")],A.ad("v<ij>"))})
 s($,"aFz","aiS",()=>new A.A())
 r($,"ayw","aiR",()=>{var q=new A.a_o()
 q.Vf($.aiS())
