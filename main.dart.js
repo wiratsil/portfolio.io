@@ -72100,14 +72100,14 @@ r=$.arZ()
 q=A.a2(r).h("ao<1,cx>")
 return A.dk(p,A.op(A.dk(p,A.lV(A.b([B.Oe,s,B.qE,A.ah7(A.pH(A.a4(new A.ao(r,new A.RY(),q),!0,q.h("aC.E")),B.cP,B.ai,B.aF),B.at)],t.F),B.cP,B.ai,B.cg),p,B.xC,p,p,B.Ba,B.B5,p),p,p),B.A9,p,p,p,p,p,1/0)}}
 A.RY.prototype={
-$1(a){return new A.cx(B.hr,A.no(new A.pk(a,null),250,250),null)},
+$1(a){return new A.cx(B.hr,A.no(new A.pk(a,null),280,250),null)},
 $S:452}
 A.BN.prototype={
 N(a){var s,r,q,p,o=A.c1(a,null,t.w).w.a.a
-if(o>1000)s=320
-else s=o>600?330:340
+if(o>1000)s=340
+else s=360
 r=o>600
-q=r?0.33:0.75
+q=r?0.35:0.7
 q=A.ajD(!r,B.hn,!0,s,q)
 r=$.arX()
 p=A.a2(r).h("ao<1,dj>")
@@ -72122,7 +72122,7 @@ A.Ei.prototype={
 N(a){var s,r,q,p,o=A.c1(a,null,t.w).w.a.a
 if(o>1000)s=320
 else s=o>600?330:340
-r=A.ajD(!0,B.hn,!0,s,o>600?0.25:0.75)
+r=A.ajD(!0,B.hn,!0,s,o>600?0.25:0.7)
 q=$.as_()
 p=A.a2(q).h("ao<1,dj>")
 return A.lV(A.b([B.Gu,B.Od,B.qE,B.wc,A.ajE(A.a4(new A.ao(q,new A.Xs(),p),!0,p.h("aC.E")),r)],t.F),B.av,B.ai,B.aF)}}
@@ -78126,7 +78126,7 @@ s($,"aGw","ar9",()=>A.fM("^\\d+$",!0,!1))
 s($,"aFk","afn",()=>new A.a1l(A.fM("/",!0,!1),A.fM("[^/]$",!0,!1),A.fM("^/",!0,!1)))
 s($,"aEM","afk",()=>A.agd())
 r($,"aHK","arZ",()=>{var q=t.s
-return A.b([A.ho("","Dhurakij Pundit University : B.Eng in Digital media and game system.","",A.b([],q),"Education","","dpu.ac.th",""),A.ho("","I possess seven years of professional experience as a programmer.","",A.b([],q),"Work Experience","","",""),A.ho("","I specialize in developing games with Unity Engine using C#, as well as building applications with Flutter using Dart. Furthermore, I develop backend services and RESTful APIs with Node.js and MongoDB.","",A.b([],q),"Skills","","",""),A.ho("","Examples of my work can be found on my GitHub repository.","",A.b([],q),"Git","","github.com/wiratsil","")],A.ad("v<ij>"))})
+return A.b([A.ho("","Dhurakij Pundit University : B.Eng in Digital media and game system.","",A.b([],q),"Education","","dpu.ac.th",""),A.ho("","I possess seven years of professional experience as a programmer.","",A.b([],q),"Work Experience","","",""),A.ho("","Expert in game development with Unity Engine using C#, and proficient in application development with Flutter using Dart. Skilled in designing and implementing backend services and RESTful APIs using Node.js and MongoDB.","",A.b([],q),"Skills","","",""),A.ho("","Examples of my work can be found on my GitHub repository.","",A.b([],q),"Git","","github.com/wiratsil","")],A.ad("v<ij>"))})
 r($,"aHB","arX",()=>{var q=t.s
 return A.b([A.ho("","Vehicle control systems, including seating, air conditioning, lighting, and windows.","Flutter, RESTful API",A.b(["https://i.imgur.com/clM6UxO.png","https://i.imgur.com/2cpmpU4.png","https://i.imgur.com/om1Uc0f.png"],q),"THAIYARNYON","","",""),A.ho("apps.apple.com/th/app/insight-wat-pho/id1630964323?l=th","A temple exploration app with an augmented reality (AR) system designed to enrich the visitor's experience inside the temple.","Flutter, Unity AR, Panorama 360, DB by Google sheet",A.b(["https://play-lh.googleusercontent.com/9GkbnrhMhXg3LgbJfv5HT2jA1yHe-A2yvnP1M21Y_ge84xuOCmG946vdHw9CUqT2jA=w5120-h2880-rw","https://play-lh.googleusercontent.com/Qp8jurikJCmPsniGTejNnfvoP-owhQThtPY_cgoyD-q9CqHEiIOaxItkxaL4OJKpY7j8=w5120-h2880-rw","https://play-lh.googleusercontent.com/PDLx-FmOJaXGplepqMafDpej6NY5wOWWMDhDC0wnvGRHYv4uoi7IL29pC3NWjEYQ_A=w5120-h2880-rw","https://play-lh.googleusercontent.com/qVmm7fle5eHBBizUWbgrPw23Bp6Lct3Sx9qQ3a3km7Na203KkJL3XVbOIH0GplzMNcM=w5120-h2880-rw"],q),"Insight Wat Pho","play.google.com/store/apps/details?id=com.digitopolisstudio.watpho&hl=th","",""),A.ho("","A demo project designed for backend and database training.","Flutter, Node.js, Mongodb, RESTful API",A.b(["https://i.imgur.com/zeKeIxP.png","https://i.imgur.com/aT8nVpe.png","https://i.imgur.com/jzlOZb7.png"],q),"User Management","","","")],A.ad("v<ij>"))})
 r($,"aHL","as_",()=>{var q="Unity",p=t.s
